@@ -129,7 +129,7 @@ p + ggtitle("n = 16") +
 
 ```
 
-The graph is beginning to look more symmetrical as the sample size has increased to 16, which can result in a higher frequency of discrepancies of opinion. The standard deviation is also decreasing as we are dividing 16 by the square root of 4, which gives a result of 4 for this sample size. 
+The graph is beginning to look more symmetrical as the sample size has increased to 16, which can result in a higher frequency of discrepancies of opinion. The standard deviation is also decreasing as we are dividing 16 by the square root of 4, which gives a result of 4 for this sample size. It gives the closer expected value of 10.5150211993684
 
 ```{r}
 numb=25
