@@ -151,7 +151,7 @@ p + ggtitle("n = 25") +
 
 ```
 
-The graph is looking increasingly more symmetrical, as the sample size has increased to 25 which increases the frequency for discrepancies of opinion. The standard deviation had decreased once again as we are now dividing the sample size of 25 by the square root of 5, which gives a result of 5 for this sample size. 
+The graph is looking increasingly more symmetrical, as the sample size has increased to 25 which increases the frequency for discrepancies of opinion. The standard deviation had decreased once again as we are now dividing the sample size of 25 by the square root of 5, which gives a result of 5 for this sample size. It is closer to the expected value of 8.10531008079925
 
 ```{r}
 numb=36
