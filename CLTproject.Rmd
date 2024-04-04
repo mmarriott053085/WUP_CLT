@@ -107,3 +107,25 @@ print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 ```
 
 The previous graph showed the mean is closer to 50, and the standard deviation is decreasing in accordance to the Central Limit Theory. This was expected as standard deviation for the sample was 41.83, which when divided by the square root of 9 gives a standard deviation of 13.93 or a standard deviation of 14.
+
+
+```{r}
+numb=16
+Hdata = Homers_data[sample(1:1000, size=numb*1000, replace=T),"kkardashtemp"]
+mdata  <-matrix(Hdata,nrow=1000,ncol=numb)
+x.avg <- apply(mdata,1,mean)
+my1000$k16 = x.avg
+
+p <- ggplot(my1000, aes(x=k16)) + 
+  geom_density() 
+
+# Add mean line
+  geom_vline(aes(xintercept=mean(k16)),
+            color="blue", linetype="dashed", size=1)
+p + ggtitle("n = 16") +
+  xlab("temperature") + ylab("density")
+
+  print(paste('mean = ', mean(my1000$k16),' sd = ',sd(my1000$k16)))
+
+```
+
