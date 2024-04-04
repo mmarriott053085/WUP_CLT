@@ -173,7 +173,7 @@ p + ggtitle("n = 36") +
 
 ```
 
-
+The graph has increased symmetrically once again, as we used a sample size of 36, which increases the frequency of discrepancy of opinion. The standard deviation has also decreased as we are dividing our sample size of 36 by the square root of 6 which gives a result of 6 for this sample size. This graph, along with the previous graphs demonstrates the Central Limit Theory by the standard deviation decreasing as we increase the sample size.
 
 
 
