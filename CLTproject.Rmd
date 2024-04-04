@@ -106,7 +106,7 @@ print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 
 ```
 
-The previous graph showed the mean is closer to 50, and the standard deviation is decreasing in accordance to the Central Limit Theory. This was expected as standard deviation for the sample was 41.83, which when divided by the square root of 9 gives a standard deviation of 13.93 or a standard deviation of 14.
+The previous graph showed the mean is closer to 50, and the standard deviation is decreasing in accordance to the Central Limit Theory. This was expected as standard deviation for the sample was 48.7304444444444, which when divided by the square root of 9 gives a standard deviation of 13.9606109541728 or a standard deviation of 14.The graph is getting more symmetrical.
 
 
 ```{r}
@@ -129,7 +129,7 @@ p + ggtitle("n = 16") +
 
 ```
 
-The graph is beginning to look more symmetrical as the sample size has increased to 16, which can result in a higher frequency of discrepancies of opinion. The standard deviation is also decreasing as we are dividing 16 by the square root of 4, which gives a result of 4 for this sample size.
+The graph is beginning to look more symmetrical as the sample size has increased to 16, which can result in a higher frequency of discrepancies of opinion. The standard deviation is also decreasing as we are dividing 16 by the square root of 4, which gives a result of 4 for this sample size. 
 
 ```{r}
 numb=25
@@ -151,7 +151,7 @@ p + ggtitle("n = 25") +
 
 ```
 
-The graph is looking increasingly more symmetrical, as the sample size has increased to 25 which increases the frequency for discrepancies of opinion. The standard deviation had decreased once again as we are now dividing the sample size of 25 by the square root of 5, which gives a result of 5 for this sample size.
+The graph is looking increasingly more symmetrical, as the sample size has increased to 25 which increases the frequency for discrepancies of opinion. The standard deviation had decreased once again as we are now dividing the sample size of 25 by the square root of 5, which gives a result of 5 for this sample size. 
 
 ```{r}
 numb=36
@@ -174,10 +174,5 @@ p + ggtitle("n = 36") +
 ```
 
 The graph has increased symmetrically once again, as we used a sample size of 36, which increases the frequency of discrepancy of opinion. The standard deviation has also decreased as we are dividing our sample size of 36 by the square root of 6 which gives a result of 6 for this sample size. This graph, along with the previous graphs demonstrates the Central Limit Theory by the standard deviation decreasing as we increase the sample size.
-
-
-
-
-
 
 
