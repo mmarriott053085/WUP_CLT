@@ -105,3 +105,5 @@ p + ggtitle("n = 9") +
 print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 
 ```
+
+The previous graph showed the mean is closer to 50, and the standard deviation is decreasing in accordance to the Central Limit Theory. This was expected as standard deviation for the sample was 41.83, which when divided by the square root of 9 gives a standard deviation of 13.93 or a standard deviation of 14.
